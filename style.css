@@ -1,0 +1,30 @@
+h1 {
+    margin: 5px 10% auto 20px;
+    color:red;
+    font-family: serif;
+    font-size: 100%;
+    border-style: dotted;
+    background-color: chocolate
+}
+.blue {
+    color:brown;
+
+}
+   
+   h1:hover {
+    color: red;
+    opacity: 0.5;
+   }
+body{
+    background-image: url("pikachu.jpg");
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Pn4I_wdAW4NaqvzGZhNDcrrYkYWQK9YdQQ&s);
+
+
+    background-attachment: scroll;
+    background-position: top right;
+    background-size: 100% 100%;
+}
+
+ol li:nth-child(odd){
+    color: blue;
+}
